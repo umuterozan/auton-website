@@ -1,0 +1,130 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&family=Nunito:wght@400;700&family=Raleway:wght@400;500;700&display=swap');
+
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #1C1C1C;
+    --bg-navbar: #F7F7F7;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #6C6C6C;
+    --dark-brown: #400000;
+    --light-brown: #810000;
+    --dark-red: #c00000;
+    --light-red: #fe0002;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--bg-light);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 185px;
+}
+
+/* Fonts */
+
+.header-item--text h1 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--light-red);
+}
+
+.header-item--text p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+}
+
+.nav-items {
+    font-family: 'Raleway', sans-serif;
+}
+
+.article-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header & Nav */
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    background: var(--bg-dark);
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.header-item--text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.header-item--image {
+    margin: 0 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 25px;
+}
+
+.navbar-wrapper {
+    background: var(--bg-navbar);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0;
+    background: var(--bg-navbar);
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items a {
+    margin: 0 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--gray);
+}
+
+.icons img {
+    margin: 0 24px;
+}
+
+/* Section */
+
+.section-image img {
+    width: 100%;
+}
+
+/* Article */
+
+.article {
+    padding-top: 40px;
+}
+
+.article-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.article-title p {
+    color: var(--light-red);
+}
