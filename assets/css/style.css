@@ -34,12 +34,12 @@ body {
 
 /* Fonts */
 
-.header-item--text h1 {
+.header-item-text h1 {
     font-family: 'Raleway', sans-serif;
     color: var(--light-red);
 }
 
-.header-item--text p {
+.header-item-text p {
     font-family: 'Montserrat', sans-serif;
     color: var(--white);
 }
@@ -80,6 +80,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.footer {
+    font-family: 'Nunito', sans-serif;
+}
+
 /* Header & Nav */
 
 .header {
@@ -95,13 +99,13 @@ body {
     margin: 0 30px;
 }
 
-.header-item--text {
+.header-item-text {
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
 }
 
-.header-item--image {
+.header-item-image {
     margin: 0 20px;
 }
 
@@ -308,3 +312,62 @@ body {
 }
 
 /* Footer */
+
+.footer {
+    margin-top: 55px;
+    background: var(--bg-dark);
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.footer-image {
+    text-align: center;
+}
+
+.footer-copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--white);
+}
+
+.footer-copyright b {
+    font-weight: 700;
+}
+
+.footer-info-items {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white);
+}
+
+.footer-info-items b {
+    font-weight: 700;
+}
+
+.footer-info-items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-items ul li {
+    display: flex;
+    text-align: center;
+}
+
+.footer-info-items ul li span {
+    margin-left: 15px;
+}
+
+.footer-footer {
+    margin-top: 35px;
+    text-align: center;
+    color: var(--dark-red);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
