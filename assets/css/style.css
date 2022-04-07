@@ -84,6 +84,18 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.products-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-item {
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Header & Nav */
 
 .header {
@@ -116,6 +128,7 @@ body {
 
 .navbar-wrapper {
     background: var(--bg-box);
+    border-bottom: 1px solid var(--bg-dark);
 }
 
 .navbar {
@@ -135,11 +148,38 @@ body {
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
+    color: var(--black);
+}
+
+.nav-items a:hover {
     color: var(--gray);
 }
 
 .icons img {
     margin: 0 10px;
+}
+
+.active a {
+    color: var(--light-red);
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    display: none;
+    background: var(--bg-box);
+    border: 1px solid var(--bg-dark);
+    border-top: 0;
+    padding: 15px 0;
+    position: absolute;
+}
+
+.dropdown-menu a {
+    color: var(--black);
+}
+
+.dropdown-trigger:hover .dropdown-menu {
+    display: block;
 }
 
 /* Section */
@@ -370,4 +410,78 @@ body {
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
+}
+
+/* Other Pages */
+
+.products-section {
+    margin-top: 90px;
+}
+
+.products-title {
+    gap: 20px;
+}
+
+.products-title h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.products-title h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--light-red);
+}
+
+.contact-section {
+    margin-top: 60px;
+}
+
+.contact-title h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.contact-title h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--light-red);
+}
+
+.contact-info {
+    margin-top: 60px;
+}
+
+.contact-item h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 128.4%;
+}
+
+.contact-item p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-image {
+    margin-left: 55px;
+}
+
+.contact-items.right-contact-items {
+    margin-left: 65px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
