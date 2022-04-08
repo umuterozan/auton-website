@@ -22,8 +22,12 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background: var(--bg-light);
+}
+
+section {
+    min-height: calc(100vh - 199px);
 }
 
 .container {
@@ -56,10 +60,6 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-.article-item-content-description {
-    font-family: 'Raleway', sans-serif;
-}
-
 .article-item-footer {
     font-family: 'Raleway', sans-serif;
 }
@@ -69,10 +69,6 @@ body {
 }
 
 .home-description-content {
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-description-image {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -229,44 +225,15 @@ body {
     justify-content: center;
 }
 
-.article-item-content-description {
-    margin-left: 25px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    color: var(--dark-gray);
-}
-
-.article-item-content-description ul li {
-    margin-top: 10px;
-}
-
-.article-item-content-description ul li span {
-    margin-left: 15px;
-}
-
 .article-item-footer {
     text-align: center;
 }
 
-.article-item-footer span {
+.article-item-footer p {
     color: var(--gray2);
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-}
-
-.article-item-footer button {
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 15px;
-    border: 1px solid var(--black);
-    padding: 4px 12px;
-    margin-left: 35px;
-}
-
-.article-item-footer button:hover {
-    cursor: pointer;
 }
 
 /* Home Description */
@@ -305,17 +272,6 @@ body {
 
 .home-description-content img {
     margin-top: 25px;
-}
-
-.home-description-image {
-    margin-top: 40px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.home-description-image img {
-    margin-top: 15px;
 }
 
 .home-description-footer {
@@ -484,4 +440,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+/* Updates */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-item img,
+.footer-image img {
+    width: 50px;
+}
+
+.header-item-image img {
+    width: 20px;
 }
