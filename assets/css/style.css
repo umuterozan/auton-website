@@ -92,6 +92,26 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
+.about-description-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-description-text h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-description-text p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-description-footer h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-description-footer p {
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Header & Nav */
 
 .header {
@@ -440,6 +460,64 @@ section {
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+.about-description {
+    margin-top: 80px;
+}
+
+.about-description-title h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.about-description-title h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--light-red);
+}
+
+.about-description-content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.about-description-text h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about-description-text p {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.about-description-image img {
+    width: 550px;
+}
+
+.about-description-footer {
+    margin-top: 100px;
+}
+
+.about-description-footer h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about-description-footer p {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 /* Updates */
