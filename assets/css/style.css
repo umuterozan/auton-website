@@ -229,7 +229,7 @@ section {
 .article-item {
     padding: 30px 50px;
     background-color: var(--bg-box);
-    box-shadow: 4px 4px 4px var(--orange);
+    box-shadow: 4px 4px 4px var(--light-red);
 }
 
 .article-item-title {
