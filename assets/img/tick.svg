@@ -1,3 +1,7 @@
-<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M21.3525 0L9.89746 15.1025L3.125 8.33496L0 11.46L10.415 21.875L25 3.125L21.3525 0Z" fill="#FF4D00"/>
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" fill="#fe0002" d="m21.3525,0l-11.45504,15.1025l-6.77246,-6.76754l-3.125,3.12504l10.415,10.415l14.585,-18.75l-3.6475,-3.125z"/>
+ </g>
 </svg>
